@@ -65,7 +65,7 @@ function inc() {
 
 function puzzle() {
 	var nodes = prompt("Hola, por favor Ingrese texto inicial, texto final y heurstica (1 o 2) separados por un espacio")
-	if (nodes == null || nodes == '') nodes = 'rrope perro 1'
+	if (nodes == null || nodes == '') nodes = '12345768_ 12345678_ 1'
 	nodes = nodes.split(' ')
 	return Colinas(nodes[0], nodes[1], nodes[2])
 }
